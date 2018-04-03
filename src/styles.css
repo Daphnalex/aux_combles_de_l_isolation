@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0px;
+}
+.container {
+  width:100%;
+  max-width: none;
+  padding: 0px;
+}
+.row{
+  margin: 0px;
+}
+.col{
+  padding: 0px;
+}

@@ -1,0 +1,17 @@
+#background {
+  float:left;
+   height: 100%;
+}
+.image {
+  height: 100%;
+}
+.logo>img{
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+h1{
+  font-size: 25px;
+  font-family: "Rock Salt", cursive;
+  margin-top: 20px;
+}
