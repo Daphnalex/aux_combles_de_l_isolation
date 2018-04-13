@@ -1,88 +1,18 @@
-#background {
-  float:left;
-   height: 100%;
-}
-.image {
-  height: 100%;
-}
-.logo>img{
-  width: 50%;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-@media screen and (max-width: 720px) {
-  h1{
-    font-size: 20px;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    color: #ffffff;
-    font-style: normal;
-    margin-top:20px;
-  }
-}
 
 @media screen and (min-width: 720px) {
-  h1{
-    font-size: 30px;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    color: #3f2c30;
-    font-style: normal;
-  }
-}
-h2{
-  font-size: 50px;
-  font-weight: bold;
-  font-family: 'Roboto Slab', serif;
-  margin-bottom: 10px;
-  text-align: center;
-}
-h3{
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Roboto Slab', serif;
-}
-h4{
-  text-align: center;
-  font-size: 22px;
-  font-family: 'Roboto Slab', serif;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-h5{
-  margin-bottom: 20px;
-  text-decoration: underline;
-  font-weight: normal;
-  color:#333;
-}
-h6{
-  margin-bottom: 20px;
-  font-size: 25px;
-  font-weight: normal;
-  text-align: center;
-  margin-top:30px;
-  margin-bottom: 30px;
-}
-.part2 img{
-  float: center;
-  margin-top: 50px;
-  width: 150px;
-}
-
-@media screen and (min-width: 720px) {
-  .parallax1{
+  #parallax1{
     background: url('/assets/img/image2_original.jpg');
     background-size: cover;
     background-attachment: fixed;
     float: center;
   }
-  .parallax2{
+  #parallax2{
     background: url('/assets/img/image1_recadre.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
   }
-  .parallax3{
+  #parallax3{
     background: url('/assets/img/slide4.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -90,19 +20,19 @@ h6{
   }
 }
 @media screen and (max-width: 720px) {
-  .parallax1{
+  #parallax1{
     background: url('/assets/img/image2_original.jpg');
     background-size: cover;
     background-attachment: fixed;
     float: center;
   }
-  .parallax2{
+  #parallax2{
     background: url('/assets/img/image1_recadre.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 300px;
   }
-  .parallax3{
+  #parallax3{
     background: url('/assets/img/slide4.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -113,61 +43,35 @@ h6{
 .presentation{
   margin: 40px;
 }
-.arrow:hover{
-  cursor:pointer;
-}
-.details{
-  margin-top: 25px;
-}
-hr{
-  border-top:3px solid #dacdb4;
-  color: #dacdb4;
-}
-.details p{
-  text-align: center;
-  font-size: 18px;
-}
-.service{
-  padding:10px;
-  cursor: pointer;
-}
-.icone{
-  border: 2px solid #dacdb4;
-  padding: 10px;
-  border-radius: 100px;
-}
-.descriptif{
-  text-align: left;
-  margin : 20px;
-}
+
 #navbarNavAltMarkup{
   float: right;
   position: absolute;
   right: 20px;
 }
-.carousel-inner img {
-      width: 100%;
-      height: 100%;
-  }
-
-#map {
-     width: 100%;
-     height: 400px;
-     margin-top: 40px;
-   }
-
-@media screen and (min-width: 1100px) {
-  .photos{
-    width: 50%;
-    margin-left:25%;
-  }
+nav{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #b4a3ad;
 }
-@media screen and (max-width: 1100px) {
-  .photos{
-    width: 100%;
-  }
+footer{
+  background-color: #cbbda1;
 }
-.information{
-  font-size: 20px;
-  color:#90868c;
+#arrowButton{
+  position: fixed;
+  right: 25px;
+  z-index: 100;
+}
+.arrowUp{
+  color:white;
+  background-color: #3f2c30;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+.arrowUp>i{
+  font-size: 30px;
 }

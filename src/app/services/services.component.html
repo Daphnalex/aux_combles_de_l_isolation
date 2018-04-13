@@ -1,0 +1,104 @@
+<div class="col col-12">
+  <h2>Services</h2>
+  <h3>Un ensemble de compétences regroupées</h3>
+</div>
+<div class=" details col offset-1 col-10">
+  <div class="row">
+    <div id="service1" *ngIf='!service1Hover' class="service col col-lg-3 col-md-6 col-sm-6 col-12" (mouseenter)="mouseEnter('service1')">
+      <div id="icone" class="col offset-lg-3 col-lg-6 offset-md-3 col-md-6 offset-sm-4 col-sm-4 offset-4 col-4" >
+        <div *ngIf='divLoaded' [style.height.px]="WidthOfDiv" [style.width.px]="WidthOfDiv" class="icone">
+          <img id="icone1" src="/assets/img/icone_isolationbis.png" alt='Logo isolation' width="100%"/>
+        </div>
+      </div>
+      <div class="col-12">
+          <h4>Isolation</h4>
+          <hr/>
+          <p>Refaites votre isolation acoustique et phonique pour un meilleur confort de vie.</p>
+      </div>
+    </div>
+    <div id="service1" *ngIf='service1Hover' class="service col col-lg-3 col-md-6 col-sm-6 col-12" (mouseleave)="mouseLeave('service1')">
+      <div id="icone" class="col offset-lg-3 col-lg-6 offset-md-3 col-md-6 offset-sm-4 col-sm-4 offset-4 col-4" >
+        <div *ngIf='divLoaded' [style.height.px]="WidthOfDiv" [style.width.px]="WidthOfDiv" class="icone" style='background-color:#dacdb4'>
+          <img id="icone1" src="/assets/img/icone_isolation2bis.png" alt='Logo isolation' width="100%"/>
+        </div>
+      </div>
+      <div class="col-12">
+          <h4 style='color:#755c62'>Isolation</h4>
+          <hr/>
+          <p style='color:#755c62'>Refaites votre isolation acoustique et phonique pour un meilleur confort de vie.</p>
+      </div>
+    </div>
+    <div id="service2" *ngIf='!service2Hover' class="service col col-lg-3 col-md-6 col-sm-6 col-12" (mouseenter)="mouseEnter('service2')">
+      <div class="col offset-lg-3 col-lg-6 offset-md-3 col-md-6 offset-sm-4 col-sm-4 offset-4 col-4">
+        <div *ngIf='divLoaded' [style.height.px]="WidthOfDiv" [style.width.px]="WidthOfDiv" class="icone">
+          <img id="icone2" src="/assets/img/amenagement_interieur.png" alt='Logo aménagement' width="100%"/>
+        </div>
+      </div>
+      <div class="col-12">
+          <h4>Aménagement intérieur</h4>
+          <hr/>
+          <p>Création de vos cloisons, combles et pièces d'eau pour créer de nouveaux espaces.</p>
+      </div>
+    </div>
+    <div id="service2" *ngIf='service2Hover' class="service col col-lg-3 col-md-6 col-sm-6 col-12" (mouseleave)="mouseLeave('service2')">
+      <div class="col offset-lg-3 col-lg-6 offset-md-3 col-md-6 offset-sm-4 col-sm-4 offset-4 col-4">
+        <div *ngIf='divLoaded' [style.height.px]="WidthOfDiv" [style.width.px]="WidthOfDiv" class="icone" style='background-color:#dacdb4'>
+          <img id="icone2" src="../assets/img/amenagement_interieur2.png" alt='Logo aménagement' width="100%"/>
+        </div>
+      </div>
+      <div class="col-12">
+          <h4 style='color:#755c62'>Aménagement intérieur</h4>
+          <hr/>
+          <p style='color:#755c62'>Création de vos cloisons, combles et pièces d'eau pour créer de nouveaux espaces.</p>
+      </div>
+    </div>
+    <div id="service3" *ngIf='!service3Hover' class="service col col-lg-3 col-md-6 col-sm-6 col-12" (mouseenter)="mouseEnter('service3')">
+      <div class="col offset-lg-3 col-lg-6 offset-md-3 col-md-6 offset-sm-4 col-sm-4 offset-4 col-4">
+        <div *ngIf='divLoaded' [style.height.px]="WidthOfDiv" [style.width.px]="WidthOfDiv" class="icone" style="padding-top: 22%;">
+          <img id="icone3" src="/assets/img/icone_menuiserie-copie.png" alt='Logo menuiseries' width="100%"/>
+        </div>
+      </div>
+      <div class="col-12">
+          <h4>Menuiseries</h4>
+          <hr/>
+          <p>Pose de vos blocs-portes, galandages et parquets.</p>
+      </div>
+    </div>
+    <div id="service3" *ngIf='service3Hover' class="service col col-lg-3 col-md-6 col-sm-6 col-12" (mouseleave)="mouseLeave('service3')">
+      <div class="col offset-lg-3 col-lg-6 offset-md-3 col-md-6 offset-sm-4 col-sm-4 offset-4 col-4">
+        <div *ngIf='divLoaded' [style.height.px]="WidthOfDiv" [style.width.px]="WidthOfDiv" class="icone" style="padding-top: 22%;background-color:#dacdb4;">
+          <img id="icone3" src="/assets/img/icone_menuiserie.png" alt='Logo menuiseries' width="100%"/>
+        </div>
+      </div>
+      <div class="col-12">
+          <h4 style='color:#755c62'>Menuiseries</h4>
+          <hr/>
+          <p style='color:#755c62'>Pose de vos blocs-portes, galandages et parquets.</p>
+      </div>
+    </div>
+    <div id="service4"  *ngIf='!service4Hover' class="service col col-lg-3 col-md-6 col-sm-6 col-12" (mouseenter)="mouseEnter('service4')">
+      <div class="col offset-lg-3 col-lg-6 offset-md-3 col-md-6 offset-sm-4 col-sm-4 offset-4 col-4">
+        <div *ngIf='divLoaded' [style.height.px]="WidthOfDiv" [style.width.px]="WidthOfDiv" class="icone" style="padding-top: 10%">
+          <img id="icone4" src="/assets/img/peinture.png" alt='Logo peinture' width="100%"/>
+        </div>
+      </div>
+      <div class="col-12">
+          <h4>Peinture d'impression</h4>
+          <hr/>
+          <p>Réalisation de vos peintures d'impression.</p>
+      </div>
+    </div>
+    <div id="service4"  *ngIf='service4Hover' class="service col col-lg-3 col-md-6 col-sm-6 col-12" (mouseleave)="mouseLeave('service4')">
+      <div class="col offset-lg-3 col-lg-6 offset-md-3 col-md-6 offset-sm-4 col-sm-4 offset-4 col-4">
+        <div *ngIf='divLoaded' [style.height.px]="WidthOfDiv" [style.width.px]="WidthOfDiv" class="icone" style="padding-top: 10%;background-color:#dacdb4">
+          <img id="icone4" src="/assets/img/peinture2.png" alt='Logo peinture' width="100%"/>
+        </div>
+      </div>
+      <div class="col-12">
+          <h4 style='color:#755c62'>Peinture d'impression</h4>
+          <hr/>
+          <p style='color:#755c62'>Réalisation de vos peintures d'impression.</p>
+      </div>
+    </div>
+  </div>
+</div>

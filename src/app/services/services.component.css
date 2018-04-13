@@ -1,0 +1,21 @@
+.service{
+  padding:10px;
+  cursor: pointer;
+}
+hr{
+  border-top:3px solid #dacdb4;
+  color: #dacdb4;
+}
+.icone{
+  border: 2px solid #dacdb4;
+  padding: 10px;
+  border-radius: 100px;
+}
+.details{
+  margin-top: 25px;
+}
+
+.details p{
+  text-align: center;
+  font-size: 18px;
+}
