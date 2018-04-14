@@ -1,6 +1,6 @@
 .service{
   padding:10px;
-  cursor: pointer;
+  cursor: arrow;
 }
 hr{
   border-top:3px solid #dacdb4;
