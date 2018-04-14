@@ -1,11 +1,11 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-page-one',
   templateUrl: './page-one.component.html',
   styleUrls: ['./page-one.component.css']
 })
-export class PageOneComponent implements OnInit, AfterViewInit {
+export class PageOneComponent implements OnInit {
 
   public HeightDevice = window.screen.height-94;
   public WidthDevice= window.screen.width;
@@ -20,10 +20,6 @@ export class PageOneComponent implements OnInit, AfterViewInit {
     console.log('WidthDevice', this.WidthDevice);
     console.log('HeightDevice', this.HeightDevice);
     document.getElementById('arrowButton').style.display='none';
-  }
-
-
-  ngAfterViewInit(){
     this.HeightNavBar = document.getElementById("navbar").offsetHeight;
     this.HeightFooter = document.getElementById("footer").offsetHeight;
 
@@ -53,9 +49,6 @@ export class PageOneComponent implements OnInit, AfterViewInit {
         document.getElementById('arrowButton').style.display='none';
       }
     });
-
-  };
-
-
+  }
 
 }

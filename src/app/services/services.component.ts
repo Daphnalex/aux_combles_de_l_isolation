@@ -28,6 +28,7 @@ export class ServicesComponent implements OnInit, AfterViewInit {
       this.divLoaded = true;
     }
   }
+  
   //hover to icone services
   mouseEnter(idElement){
     console.log('idElement', idElement);
