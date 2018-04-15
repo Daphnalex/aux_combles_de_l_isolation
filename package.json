@@ -2,6 +2,7 @@
   "name": "site-vitrine-isolation",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "app.js",
   "scripts": {
     "ng": "ng",
     "start": "node app.js & ng serve",
