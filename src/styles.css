@@ -9,6 +9,7 @@ body {
   max-width: none;
   padding: 0px;
   background: #f9f9f9;
+  margin: 0px;
 }
 .row{
   margin: 0px;
@@ -18,53 +19,53 @@ body {
 }
 @media screen and (max-width: 720px) {
   h1{
-    font-size: 20px;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    color: #ffffff;
-    font-style: normal;
-    margin-top:20px;
+    font-size: 20px !important;
+    font-family: 'Roboto Slab', serif !important;
+    text-align: center !important;
+    color: #ffffff !important;
+    font-style: normal !important;
+    margin-top:20px !important;
   }
 }
 
 @media screen and (min-width: 720px) {
   h1{
-    font-size: 30px;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    color: #3f2c30;
-    font-style: normal;
+    font-size: 30px !important;
+    font-family: 'Roboto Slab', serif !important;
+    text-align: center !important;
+    color: #3f2c30 !important;
+    font-style: normal !important;
   }
 }
 h2{
-  font-size: 50px;
-  font-weight: bold;
-  font-family: 'Roboto Slab', serif;
-  margin-bottom: 10px;
-  text-align: center;
+  font-size: 50px !important;
+  font-weight: bold !important;
+  font-family: 'Roboto Slab', serif !important;
+  margin-bottom: 10px !important;
+  text-align: center !important;
 }
 h3{
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Roboto Slab', serif;
+  text-align: center !important;
+  font-size: 18px !important;
+  font-family: 'Roboto Slab', serif !important;
 }
 h4{
-  text-align: center;
-  font-size: 22px;
-  font-family: 'Roboto Slab', serif;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  text-align: center !important;
+  font-size: 22px !important;
+  font-family: 'Roboto Slab', serif !important;
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
 }
 h5{
-  margin-bottom: 20px;
-  text-decoration: underline;
-  font-weight: normal;
-  color:#333;
+  margin-bottom: 20px !important;
+  text-decoration: underline !important;
+  font-weight: normal !important;
+  color:#333 !important;
 }
 h6{
-  font-size: 25px;
-  font-weight: normal;
-  text-align: center;
-  margin-top:40px;
-  margin-bottom: 30px;
+  font-size: 25px !important;
+  font-weight: normal !important;
+  text-align: center !important;
+  margin-top:40px !important;
+  margin-bottom: 30px !important;
 }

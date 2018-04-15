@@ -23,7 +23,7 @@ export class ServicesComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(){
     //get the width of the div icone to define the height of the div in html
     this.WidthOfDiv = document.getElementById("icone").offsetWidth;
-    console.log('WidthOfDiv',this.WidthOfDiv);
+    //console.log('WidthOfDiv',this.WidthOfDiv);
     if (this.WidthOfDiv !== null){
       this.divLoaded = true;
     }
@@ -31,7 +31,7 @@ export class ServicesComponent implements OnInit, AfterViewInit {
   
   //hover to icone services
   mouseEnter(idElement){
-    console.log('idElement', idElement);
+    //console.log('idElement', idElement);
     switch(idElement){
       case "service1" :
         this.service1Hover = true;
@@ -48,7 +48,7 @@ export class ServicesComponent implements OnInit, AfterViewInit {
     }
   }
   mouseLeave(idElement){
-    console.log('idElement', idElement);
+    //console.log('idElement', idElement);
     switch(idElement){
       case "service1" :
         this.service1Hover = false;

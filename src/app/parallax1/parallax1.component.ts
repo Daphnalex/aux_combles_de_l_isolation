@@ -12,7 +12,7 @@ export class Parallax1Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log('HeightDevice', this.HeightDevice);
+    //console.log('HeightDevice', this.HeightDevice);
   }
 
 }

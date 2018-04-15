@@ -17,8 +17,8 @@ export class PageOneComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log('WidthDevice', this.WidthDevice);
-    console.log('HeightDevice', this.HeightDevice);
+    //console.log('WidthDevice', this.WidthDevice);
+    //console.log('HeightDevice', this.HeightDevice);
     document.getElementById('arrowButton').style.display='none';
     this.HeightNavBar = document.getElementById("navbar").offsetHeight;
     this.HeightFooter = document.getElementById("footer").offsetHeight;
@@ -44,7 +44,7 @@ export class PageOneComponent implements OnInit {
     });
 
     $(window).scroll(function(){
-      console.log('Test',window.scrollY);
+      //console.log('Test',window.scrollY);
       if(window.scrollY > 620){
         document.getElementById('arrowButton').style.display='block';
       } else {
