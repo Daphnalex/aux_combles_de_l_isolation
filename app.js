@@ -29,4 +29,6 @@ app.use(bodyParser.json());
 //app.use('/api',routes);
 
 // Listen for requests
-app.listen(process.env.PORT || 8080);
+var server = app.listen(app.get('port'),function(){
+  console.log('Express server listening on port ' + server.address().port);
+});
