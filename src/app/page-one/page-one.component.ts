@@ -41,6 +41,9 @@ export class PageOneComponent implements OnInit {
                .animate({scrollTop: $(target).offset().top}, 1000 );
           }
       });
+      $('a.nav-item').on('click', function(evt){
+        $('#navbarNavAltMarkup').removeClass('show');
+      })
     });
 
     $(window).scroll(function(){

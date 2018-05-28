@@ -105,14 +105,14 @@ h6{
   margin: 40px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 991px) {
   #navbarNavAltMarkup{
     float: right;
     right: 20px;
     position: absolute;
   }
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 990px) {
   #navbarNavAltMarkup{
     float: right;
     right: 20px;
