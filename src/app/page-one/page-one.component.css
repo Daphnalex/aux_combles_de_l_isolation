@@ -74,7 +74,7 @@ h6{
     height: 500px;
   }
   #parallax3{
-    background: url('/assets/img/slide4.jpg') no-repeat center;
+    background: url('/assets/img/image3.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
@@ -94,7 +94,7 @@ h6{
     height: 300px;
   }
   #parallax3{
-    background: url('/assets/img/slide4.jpg') no-repeat center;
+    background: url('/assets/img/image3.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 300px;
@@ -105,10 +105,18 @@ h6{
   margin: 40px;
 }
 
-#navbarNavAltMarkup{
-  float: right;
-  position: absolute;
-  right: 20px;
+@media screen and (min-width: 720px) {
+  #navbarNavAltMarkup{
+    float: right;
+    right: 20px;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 720px) {
+  #navbarNavAltMarkup{
+    float: right;
+    right: 20px;
+  }
 }
 nav{
   position: fixed;
